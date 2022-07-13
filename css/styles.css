@@ -206,7 +206,6 @@ a {
   padding-bottom: 10px;
 }
 .user-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -226,7 +225,6 @@ a {
   margin-top: 20px;
 }
 .address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -234,12 +232,21 @@ a {
   font-style: normal;
 }
 .address-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--sub-text-color);
   font-style: normal;
+}
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.address-item:hover,
+.address-item:focus {
+  color: var(--accent-color);
+  cursor: pointer;
 }
 .button {
   font-weight: 500;
@@ -268,7 +275,6 @@ a {
 }
 .product-items > .product-item {
   background: var(--white-color);
-
   margin-bottom: 30px;
   margin-right: 30px;
   flex-basis: calc(100% / 3 - 30px);
@@ -276,7 +282,6 @@ a {
 .product-item:nth-child(3n + 3) {
   margin-right: 0;
 }
-
 .image-name {
   font-weight: 700;
   font-size: 18px;
@@ -290,7 +295,6 @@ a {
   border-bottom: none;
 }
 .image-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 2.3;
   letter-spacing: 0.03em;
