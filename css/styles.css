@@ -147,6 +147,7 @@ a {
   padding: 0 452px;
 }
 .main-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -256,6 +257,7 @@ a {
   cursor: pointer;
 }
 .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
