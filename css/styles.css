@@ -36,6 +36,7 @@ ul {
   list-style: none;
   padding: 0;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -68,6 +69,8 @@ a {
   width: 1600px;
   display: flex;
   padding: 24px 0 25px;
+}
+.header-menu {
   border-bottom: 1px solid var(--header-border);
 }
 .logo {
@@ -102,6 +105,7 @@ a {
   color: var(--accent-color);
   cursor: pointer;
 }
+
 .nav-item {
   color: var(--text-color);
 }
@@ -112,6 +116,9 @@ a {
 .contacts:focus {
   color: var(--accent-color);
   cursor: pointer;
+}
+.current {
+  color: var(--accent-color);
 }
 .menu-item,
 .contact-item {
@@ -304,4 +311,7 @@ a {
   padding-left: 24px;
   border: 1px solid var(--image-border);
   border-top: none;
+}
+.image {
+  display: block;
 }
