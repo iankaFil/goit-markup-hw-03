@@ -127,7 +127,6 @@ a {
   color: var(--accent-color);
 }
 .menu-list {
-  padding-top: 8px;
   margin-left: 93px;
 }
 .menu-item {
@@ -138,7 +137,6 @@ a {
 }
 .contact-list {
   margin-left: auto;
-  padding-top: 8px;
 }
 .contact-item {
   margin-right: 50px;
